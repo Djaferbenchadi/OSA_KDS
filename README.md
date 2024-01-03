@@ -18,7 +18,7 @@ Here we show some of the saliency maps that highlight discriminative features in
 These visualizations aids in interpreting the results more intuitively and understanding the underlying mechanisms of the malware correlate to specific sections within Portable Executable (PE) files. This correlation is critical for applying reverse-engineering techniques.
 
 
-<img src="https://github.com/Djaferbenchadi/OSA_KDS/blob/main/OSA_KDS_Dumpware.png" />
+<img src="https://github.com/Djaferbenchadi/OSA_KDS/blob/main/OSA_KDS_b.png" />
 
 
 

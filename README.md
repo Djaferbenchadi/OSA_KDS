@@ -1,9 +1,8 @@
-# Malware Visualization based on OSA_KDS
-
+# Occlusion Sensitivity Analysis based Kernel Difference Subspace (OSA_KDS)
 
 This project come as the second part of our [IEEE access paper](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=JQsEaPUAAAAJ&citation_for_view=JQsEaPUAAAAJ:IjCSPb-OGe4C), following the [malware classification task](https://github.com/Djaferbenchadi/Malware_classification_ksm). 
 
-Here we introduce a visualization framework named "Occlusion Sensitivity Analysis based Kernel Difference Subspace (OSA_KDS)". 
+Here we introduce a malware visualization framework named "Occlusion Sensitivity Analysis based Kernel Difference Subspace (OSA_KDS)". 
 
 This wor focuses on understanding malware behavior. The framework is essential for enhancing the interpretability of malware detection by generating saliency maps to visualize the importance of discriminative features within different malware families.
 OSA_KDS measures the significance of specific elements in a feature vector that discriminates between malware and safe classes. This measurement is based on the change in the vector's length when an element is occluded by a small window mask. The discriminative feature vector is extracted by projecting a malware pattern vector onto a Kernel Difference Subspace (KDS), representing the differences between malware and safe class subspaces. By sliding the mask across the feature vector, we determine each element's importance, resulting in a saliency map that visualizes these crucial elements.
@@ -11,13 +10,19 @@ OSA_KDS measures the significance of specific elements in a feature vector that 
 
 <img src="https://github.com/Djaferbenchadi/OSA_KDS/blob/main/OSA-KDS-diag.png" />
 
+The OSA_KDS framework is applied to the same datasets used in the [malware classification task](https://github.com/Djaferbenchadi/Malware_classification_ksm).
+
+## Results
+Here we show some of the saliency maps that highlight discriminative features in malware input using OSA_KDS.
+
+
 ## Future work 
+
+Feel free to submit a pull request if you want to improve this tool!
 
 
 ## Citation
-
 If you are using OSA_KDS in an academic project, we would be grateful if you could reference our work using the following BibTeX entry:
-
 
 ```
 @article{djafer2023efficient,

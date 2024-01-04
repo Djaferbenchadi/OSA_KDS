@@ -8,7 +8,7 @@ Here we introduce a malware visualization framework named "Occlusion Sensitivity
 This work focuses on understanding malware behavior. The framework is essential for enhancing the interpretability of malware detection by generating saliency maps to visualize the importance of discriminative features within different malware families.
 OSA_KDS measures the significance of specific elements in a feature vector that discriminates between malware and safe classes. This measurement is based on the change in the vector's length when an element is occluded by a small window mask. The discriminative feature vector is extracted by projecting a malware pattern vector onto a Kernel Difference Subspace (KDS), representing the differences between malware and safe class subspaces. By sliding the mask across the feature vector, we determine each element's importance, resulting in a saliency map that visualizes these crucial elements.
 
-<img src="https://github.com/Djaferbenchadi/OSA_KDS/blob/main/OSA-KDS-diag.png" />
+<img src="https://github.com/Djaferbenchadi/OSA_KDS/blob/main/images/OSA-KDS-diag.png" />
 
 
 ## Results
@@ -18,7 +18,7 @@ Here we show some of the saliency maps that highlight discriminative features in
 These visualizations aids in interpreting the results more intuitively and understanding the underlying mechanisms of the malware correlate to specific sections within Portable Executable (PE) files. This correlation is critical for applying reverse-engineering techniques.
 
 
-<img src="https://github.com/Djaferbenchadi/OSA_KDS/blob/main/OSA_KDS_b.png" />
+<img src="https://github.com/Djaferbenchadi/OSA_KDS/blob/main/images/OSA_KDS_b.png" />
 
 
 
